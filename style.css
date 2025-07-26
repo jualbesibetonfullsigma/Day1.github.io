@@ -1,0 +1,81 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+ 
+}
+
+.container-navbar {
+  background-color: white
+}
+
+.ul-navbar {
+  background-color: #343434;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  list-style: none;
+  padding: 10px;
+  color: white;
+  margin: 5px;
+}
+
+.li-navbar:hover {
+  background-color: Black;
+  transition: .5s ease-in-out;
+  animation-delay: .3s;
+  border-radius: 8px;
+}
+
+.a-navbar {
+  color: white;
+  text-decoration: none;
+}
+
+.Content-navbar {
+  height: 80vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.a-content {
+  background-color: white;
+  height: 720px;
+  width: 480px;
+  display: flex;
+  justify-content: center;
+  align-content: center
+  flex-direction: column;
+  border-radius: 80px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-Content {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  height: 30%;
+  width: 50%;
+}
+
+.div-footer {
+  background-color: white;
+}
+
+.h1-footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: black;
+  height: 10vh;
+}
